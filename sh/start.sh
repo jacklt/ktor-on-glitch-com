@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo 'building src/Main.kt into hello.jar. run it with `java -jar hello.jar` in your console.'
-./gradlew run
+# ./gradlew run
 # /app/.sdkman/candidates/kotlin/current/bin/kotlinc src/Main.kt -include-runtime -d hello.jar
 
 #  let's start a basic webserver to stop Glitch from constantly restarting
